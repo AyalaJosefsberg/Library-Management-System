@@ -8,6 +8,14 @@ let books=[
     {id:7,name:"the big house",category:"children",price:52,IsBorrowed:true}
 
 ]
+let arrBooks1 = [2, 3, 4];
+let arrBooks2 = [7, 4, 5, 1];
+
+let users=[
+    {id:12,name:"hj",email:"gh@bj",password:123,arrBooks:arrBooks1},
+    {id:456,name:"fd",email:"gh@fdsj",password:1236,arrBooks:arrBooks1}
+
+]
 let borrowings=[
     {borrowDate:'1.8.2026',customerCode:20},
     {borrowDate:'25.8.2026',customerCode:54},
